@@ -1,0 +1,13 @@
+datasets="
+  put a list
+  of your datasets here
+  (space or newline separated)
+"
+date_dimensions="
+  put a list of your date dimensions
+  here (space or newline separated)
+"
+
+if [ $1 ] ; then
+  datasets="$*"
+fi
